@@ -492,7 +492,7 @@ python train_fuse_log_chroma_resume.py --epochs 300
    -  Training from scratch: Baseline 55.6%, Log-chroma 51.8% ❌
    -  Pretrained fine-tuning: Log-chroma outperforms baseline by +2-5%
    -  Hypothesis: Log-chroma requires ImageNet-learned features for effective shadow suppression
-   -  **Visual Evidence**: [811 comparison images](https://github.com/CatNinjaLuna/Shadow-Removal-Log-Chroma-YOLO/tree/main/ultralytics_src_new_log_chroma/compare) demonstrate log-chromaticity's superior detection confidence across illumination conditions
+   -  **Visual Evidence**: [811 comparison images](https://github.com/CatNinjaLuna/Shadow-Removal-Log-Chroma-YOLO/tree/main/ultralytics_src_new_log_chroma/compare) demonstrate log-chromaticity's superior detection confidence across illumination conditions (Note: 811 out of 4,053 total validation images uploaded; full dataset stored on cluster due to GitHub repository size limitations)
 
 2. **Y-Channel Exchange Achieves Optimal Balance**
 
