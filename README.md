@@ -569,25 +569,6 @@ Cluster job scripts are included for:
 -  Resuming interrupted runs
 -  Multi-experiment ablation sweeps
 
-<details>
-<summary>Example SLURM Script</summary>
-```bash
-#!/bin/bash
-#SBATCH --job-name=yolo_logchroma
-#SBATCH --nodes=1
-#SBATCH --gres=gpu:1
-#SBATCH --time=24:00:00
-#SBATCH --mem=32GB
-
-module load python/3.8
-module load cuda/11.8
-
-python training/train.py --config models/yolo_config.yaml
-
-````
-
-</details>
-
 ---
 
 ## Experiments Conducted
