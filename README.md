@@ -24,7 +24,11 @@
 -  [Publication & Usage Notice](#publication--usage-notice)
 -  [Contact](#contact)
 
----mplete codebase and experimental framework for investigating **shadow-invariant** and **illumination-robust object detection** using log-chromaticity representations. The project explores whether log-space chromaticity transforms, derived from physical image formation models, can improve the robustness of modern object detectors (YOLO11-based) under challenging lighting conditions compared to standard sRGB inputs.
+---
+
+## Overview
+
+This repository contains the complete codebase and experimental framework for investigating **shadow-invariant** and **illumination-robust object detection** using log-chromaticity representations. The project explores whether log-space chromaticity transforms, derived from physical image formation models, can improve the robustness of modern object detectors (YOLO11-based) under challenging lighting conditions compared to standard sRGB inputs.
 
 ### The work integrates:
 
