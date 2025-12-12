@@ -120,8 +120,7 @@ Key Findings
 
 ## Repository Structure
 
-````
-Shadow-Removal-Log-Chroma-YOLO/
+This repository is organized into several key directories, each focused on specific aspects of the shadow-invariant object detection research. Below is a detailed breakdown of the main directories and their purposes.
 
 ### Core Training Directories
 
@@ -137,7 +136,7 @@ Shadow-Removal-Log-Chroma-YOLO/
 ```bash
 cd ultralytics_baseline
 python train_baseline_resume.py --epochs 300
-````
+```
 
 #### 2. `ultralytics_src_new_log_chroma/` - Log-Chromaticity YOLO Training
 
