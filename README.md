@@ -93,37 +93,71 @@ Ablation Studies & Analysis
 ## Repository Structure
 
 ```
-shadow-invariant-detection/
+Shadow-Removal-Log-Chroma-YOLO/
 ├── README.md
-├── requirements.txt
-├── setup.py
-├── data/
-│   ├── preprocessing/
-│   │   ├── raw_to_tiff.py
-│   │   ├── log_chroma_transform.py
-│   │   └── isd_estimation.py
-│   └── loaders/
-│       └── dataset.py
-├── models/
-│   ├── yolo_config.yaml
-│   └── custom_layers.py
-├── training/
-│   ├── train.py
-│   ├── validate.py
-│   └── slurm_scripts/
-│       ├── train_baseline.sh
-│       ├── train_logchroma.sh
-│       └── ablation_sweep.sh
-├── evaluation/
-│   ├── metrics.py
-│   ├── visualize.py
-│   └── analyze_results.py
-└── docs/
-    ├── methodology.md
-    └── results.md
+│
+├── baseline/
+│   ├── Data processing and baseline YOLO training scripts
+│   ├── Training plots, confusion matrices, and validation results
+│   └── Configuration files for baseline experiments
+│
+├── split_and_viz_data/
+│   ├── Data conversion, visualization, and splitting scripts
+│   ├── Label conversion utilities (YOLO format)
+│   └── Dataset splitting and visualization tools
+│
+├── data_src_rename_tif_labels/
+│   └── Alternative data processing and labeling scripts
+│
+├── raw_to_tiff_output/
+│   ├── RAW to TIFF conversion pipeline
+│   └── Preprocessing scripts for raw sensor data
+│
+├── my_training_data/
+│   └── Custom training data preparation utilities
+│
+├── log_chroma_shadow_removal_method/
+│   ├── Core shadow removal implementation using log-chroma method
+│   ├── Batch processing and prediction scripts
+│   └── UNet models for shadow removal
+│
+├── new_log_chroma_Bruce/
+│   ├── Alternative log-chroma implementation with U-Net and ViT
+│   ├── Models and training utilities
+│   └── Experiment results and visualizations
+│
+├── train_freeze_first_few_layers/
+│   ├── Ablation studies with layer freezing experiments
+│   ├── Training scripts for frozen backbone layers
+│   └── Results for freezing layers 1-3, 1-4, 1-5, 1-6
+│
+├── train_from_scratch_use_yaml/
+│   ├── Training from scratch with YAML configuration
+│   ├── Ultralytics library integration
+│   ├── baseline_yaml/ - Baseline training results
+│   └── log_chroma_yaml/ - Log-chroma training results
+│
+├── ultralytics_src_new_log_chroma/
+│   ├── Modified Ultralytics source code for log-chroma
+│   ├── Docker configurations
+│   ├── Comprehensive documentation
+│   ├── Training examples and use cases
+│   ├── tests/ - Test suite
+│   └── ultralytics/ - Core library with custom modifications
+│
+├── ultralytics_baseline/
+│   ├── Baseline Ultralytics training scripts
+│   ├── runs/ - Training and validation outputs
+│   └── ultralytics/ - Standard Ultralytics library
+│
+└── y_channel_exchanged_log_chroma/
+    ├── Y-channel fusion experiments
+    ├── Fused log-chroma with luminance reintegration
+    ├── Training scripts and configuration
+    └── Validation results and performance graphs
 ```
 
-> **Note:** Directory structure is subject to updates as research progresses.
+> **Note:** Large datasets, model weights, and intermediate results are stored on the computing cluster and not included in this repository.
 
 ---
 
