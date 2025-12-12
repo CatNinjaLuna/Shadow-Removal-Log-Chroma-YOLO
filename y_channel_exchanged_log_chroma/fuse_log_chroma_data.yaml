@@ -1,0 +1,3 @@
+train: "/projects/SuperResolutionData/carolinali-shadowRemoval/Y_Channel_Exchange/fuse_log_chroma_data/train/images"
+val:   "/projects/SuperResolutionData/carolinali-shadowRemoval/Y_Channel_Exchange/fuse_log_chroma_data/val/images"
+names: ["Car", "Cyclist", "Pedestrian", "Tram", "Truck"]
