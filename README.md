@@ -514,33 +514,10 @@ python train_fuse_log_chroma_resume.py --epochs 300
    -  Large objects (Car, Truck, Tram): All methods perform well
    -  Small objects (Pedestrian, Cyclist): Log-chroma shows improvement in shadows
    -  Shadow-occluded objects: Log-chroma +10-15% detection rate
-      │
-      ├── ultralytics_src_new_log_chroma/
-      │ ├── Modified Ultralytics source code for log-chroma
-      │ ├── Docker configurations
-      │ ├── Comprehensive documentation
-      │ ├── Training examples and use cases
-      │ ├── tests/ - Test suite
-      │ └── ultralytics/ - Core library with custom modifications
-      │
-      ├── ultralytics_baseline/
-      │ ├── Baseline Ultralytics training scripts
-      │ ├── runs/ - Training and validation outputs
-      │ └── ultralytics/ - Standard Ultralytics library
-      │
-      └── y_channel_exchanged_log_chroma/
-      ├── Y-channel fusion experiments
-      ├── Fused log-chroma with luminance reintegration
-      ├── Training scripts and configuration
-      └── Validation results and performance graphs
-
-````
-
-> **Note:** Large datasets, model weights, and intermediate results are stored on the computing cluster and not included in this repository.
 
 ---
 
-## Models & Checkpoints
+## Future Next Steps
 
 Due to size constraints and cluster storage policies, the following artifacts are **not included** in this repository:
 
@@ -661,13 +638,13 @@ If you use or reference this work, please cite appropriately once a formal publi
 
 ## Contact
 
-**Carolina (Yuhan) Li**  
-MS in Computer Science, Northeastern University  
+**Carolina (Yuhan) Li**
+MS in Computer Science, Northeastern University
 Research Focus: Computer Vision, Robotics Perception, Illumination-Invariant Vision
 
 For questions, collaboration, or access requests, please reach out directly.
 
-**Email:** [li.yuhan5@northeastern.edu](mailto:li.yuhan5@northeastern.edu)  
+**Email:** [li.yuhan5@northeastern.edu](mailto:li.yuhan5@northeastern.edu)
 **LinkedIn:** [linkedin.com/in/carolina-li](https://www.linkedin.com/in/carolina-li/)
 
 ---
@@ -677,3 +654,4 @@ For questions, collaboration, or access requests, please reach out directly.
 **Made with care at Khoury College of Computer Sciences**
 
 </div>
+````
