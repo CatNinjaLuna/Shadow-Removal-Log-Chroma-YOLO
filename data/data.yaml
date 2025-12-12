@@ -1,0 +1,5 @@
+train: "/projects/SuperResolutionData/carolinali-shadowRemoval/data/baseline_splitted_data/train/images"
+val:   "/projects/SuperResolutionData/carolinali-shadowRemoval/data/baseline_splitted_data/val/images"
+names: ["Car", "Cyclist", "Pedestrian", "Tram", "Truck"]
+
+
