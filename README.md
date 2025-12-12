@@ -514,15 +514,6 @@ python train_fuse_log_chroma_resume.py --epochs 300
    -  Large objects (Car, Truck, Tram): All methods perform well
    -  Small objects (Pedestrian, Cyclist): Log-chroma shows improvement in shadows
    -  Shadow-occluded objects: Log-chroma +10-15% detection rate
-      │ ├── Ablation studies with layer freezing experiments
-      │ ├── Training scripts for frozen backbone layers
-      │ └── Results for freezing layers 1-3, 1-4, 1-5, 1-6
-      │
-      ├── train_from_scratch_use_yaml/
-      │ ├── Training from scratch with YAML configuration
-      │ ├── Ultralytics library integration
-      │ ├── baseline_yaml/ - Baseline training results
-      │ └── log_chroma_yaml/ - Log-chroma training results
       │
       ├── ultralytics_src_new_log_chroma/
       │ ├── Modified Ultralytics source code for log-chroma
