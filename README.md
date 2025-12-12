@@ -146,6 +146,8 @@ python train_baseline_resume.py --epochs 300
 **Key Scripts**: 6 scripts including training, validation, inference  
 **Documentation**: [ultralytics_src_new_log_chroma/README.md](ultralytics_src_new_log_chroma/README.md) (853 lines)
 
+**Visual Comparison Results**: 📊 [811 comparison visualizations](https://github.com/CatNinjaLuna/Shadow-Removal-Log-Chroma-YOLO/tree/main/ultralytics_src_new_log_chroma/compare) showing log-chromaticity achieves **higher detection confidence** compared to baseline sRGB across shadow conditions.
+
 **Quick Start**:
 
 ```bash
@@ -490,6 +492,7 @@ python train_fuse_log_chroma_resume.py --epochs 300
    -  Training from scratch: Baseline 55.6%, Log-chroma 51.8% ❌
    -  Pretrained fine-tuning: Log-chroma outperforms baseline by +2-5%
    -  Hypothesis: Log-chroma requires ImageNet-learned features for effective shadow suppression
+   -  **Visual Evidence**: [811 comparison images](https://github.com/CatNinjaLuna/Shadow-Removal-Log-Chroma-YOLO/tree/main/ultralytics_src_new_log_chroma/compare) demonstrate log-chromaticity's superior detection confidence across illumination conditions
 
 2. **Y-Channel Exchange Achieves Optimal Balance**
 
