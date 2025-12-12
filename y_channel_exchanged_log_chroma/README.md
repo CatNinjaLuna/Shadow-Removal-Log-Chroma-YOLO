@@ -1,0 +1,1 @@
+## Use the file in "/projects/SuperResolutionData/carolinali-shadowRemoval/ultralytics_baseline/val_rename.py" to add titles to the resulting graphs.
