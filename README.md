@@ -521,12 +521,11 @@ python train_fuse_log_chroma_resume.py --epochs 300
 
 ## Future Next Steps
 
-Due to size constraints and cluster storage policies, the following artifacts are **not included** in this repository:
+Planned Technical Improvements
 
--  Trained YOLO model weights (`.pt`)
--  Intermediate UNet / ViT checkpoints
--  Large generated image datasets (`.png`, `.tiff`)
--  Raw sensor data
+- Explore improved luminance–chromaticity fusion (e.g., YUV-based weighting) to better preserve fine-grained object cues.
+- Refine log-chromaticity generation and normalization to reduce texture loss while maintaining illumination invariance.
+- Enhance small-object detection robustness through multi-scale training and higher-resolution supervision under varying illumination.
 
 ### Access to Artifacts
 
